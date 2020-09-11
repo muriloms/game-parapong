@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ParaPong.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{321BE264-27D3-4C4D-8605-EBD1117D9A49}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ParaPong.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ParaPongEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{664DEF60-5AB6-4D42-B1F8-84F6222DC187}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ParaPong">
+      <UniqueIdentifier>{28557499-3187-418A-B16A-CDDCABD952FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ParaPong\ParaPong.Build.cs">
+      <Filter>Source\ParaPong</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ParaPong\ParaPong.cpp">
+      <Filter>Source\ParaPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ParaPong\ParaPong.h">
+      <Filter>Source\ParaPong</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ParaPong\ParaPongGameModeBase.cpp">
+      <Filter>Source\ParaPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ParaPong\ParaPongGameModeBase.h">
+      <Filter>Source\ParaPong</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

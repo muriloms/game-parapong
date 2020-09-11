@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ParaPong",
+			"Path": "C:\\Users\\muril\\Desktop\\Git\\Publicos\\game-parapong\\ParaPong\\Source\\ParaPong.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ParaPongEditor",
+			"Path": "C:\\Users\\muril\\Desktop\\Git\\Publicos\\game-parapong\\ParaPong\\Source\\ParaPongEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
