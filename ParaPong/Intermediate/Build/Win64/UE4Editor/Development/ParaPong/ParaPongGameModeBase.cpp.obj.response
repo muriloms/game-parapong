@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong
-/I C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Source
+/I C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong
+/I C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Source\ParaPong\ParaPongGameModeBase.cpp"
-/FI"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\Definitions.ParaPong.h"
-/Fo"C:\Users\muril\Desktop\Git\Publicos\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\ParaPongGameModeBase.cpp.obj"
+/FI"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongGameModeBase.cpp"
+/FI"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\Definitions.ParaPong.h"
+/Fo"C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\ParaPongGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4
