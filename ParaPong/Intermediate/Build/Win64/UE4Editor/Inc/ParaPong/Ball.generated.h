@@ -8,14 +8,31 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef PARAPONG_Ball_generated_h
 #error "Ball.generated.h already included, missing '#pragma once' in Ball.h"
 #endif
 #define PARAPONG_Ball_generated_h
 
 #define ParaPong_Source_ParaPong_Ball_h_12_SPARSE_DATA
-#define ParaPong_Source_ParaPong_Ball_h_12_RPC_WRAPPERS
-#define ParaPong_Source_ParaPong_Ball_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ParaPong_Source_ParaPong_Ball_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execResetMovement); \
+	DECLARE_FUNCTION(execStopMovement); \
+	DECLARE_FUNCTION(execStartMovement); \
+	DECLARE_FUNCTION(execOnBallHit);
+
+
+#define ParaPong_Source_ParaPong_Ball_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execResetMovement); \
+	DECLARE_FUNCTION(execStopMovement); \
+	DECLARE_FUNCTION(execStartMovement); \
+	DECLARE_FUNCTION(execOnBallHit);
+
+
 #define ParaPong_Source_ParaPong_Ball_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABall(); \

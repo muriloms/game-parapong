@@ -26,8 +26,23 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ball|Movement")
 	FVector Direction;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Ball|Movement")
+	FVector InitialLocation;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Ball")
 	class UStaticMeshComponent* BallMesh;
+
+	UFUNCTION(Category = "Ball|Movement")
+	void OnBallHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
+
+	UFUNCTION(BlueprintCallable, Category = "Ball|Movement")
+	void StartMovement();
+
+	UFUNCTION(BlueprintCallable, Category = "Ball|Movement")
+	void StopMovement();
+
+	UFUNCTION(BlueprintCallable, Category = "Ball|Movement")
+	void ResetMovement();
 
 private:
 	FVector GetRandomXYDirection() const;
