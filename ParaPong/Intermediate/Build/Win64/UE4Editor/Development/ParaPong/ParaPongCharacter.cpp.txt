@@ -1,0 +1,11 @@
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\Definitions.ParaPong.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongCharacter.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

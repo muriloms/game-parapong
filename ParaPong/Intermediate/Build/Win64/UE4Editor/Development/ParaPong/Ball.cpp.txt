@@ -4,3 +4,4 @@ C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermedia
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPong.h

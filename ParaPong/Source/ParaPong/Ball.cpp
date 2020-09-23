@@ -5,6 +5,8 @@
 
 #include <Kismet/KismetMathLibrary.h>
 
+#include "ParaPong.h"
+
 // Sets default values
 ABall::ABall()
 {
@@ -41,6 +43,8 @@ void ABall::BeginPlay()
 	// Definir massa do objeto
 	BallMesh->SetMassOverrideInKg(NAME_None, 1.0f, true);
 
+	StartMovement();
+
 }
 
 // Called every frame
@@ -59,6 +63,7 @@ void ABall::Tick(float DeltaTime)
 void ABall::OnBallHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
 {
 	Direction = UKismetMathLibrary::GetReflectionVector(Direction, Hit.Normal);
+	UE_LOG(LogParaPong, Log, TEXT("Direction: %s"), *Direction.ToString());
 }
 
 void ABall::StartMovement()
