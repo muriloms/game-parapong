@@ -1,12 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong).
+  Parsing headers for ParaPongEditor
+    Running UnrealHeaderTool "C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\ParaPong.uproject" "C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\ParaPongEditor\Development\ParaPongEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ms7mu\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ParaPongEditor in 13,7443374 seconds
   Building ParaPongEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
-    [1/4] Ball.cpp
-    [2/4] UE4Editor-ParaPong-0023.lib
-       Criando biblioteca C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0023.lib e objeto C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0023.exp
-    [3/4] UE4Editor-ParaPong-0023.dll
-       Criando biblioteca C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0023.suppressed.lib e objeto C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0023.suppressed.exp
-    [4/4] ParaPongEditor.target
-  Total time in Parallel executor: 2,47 seconds
-  Total execution time: 3,73 seconds
+  Building 5 actions with 4 processes...
+    [1/5] ParaPongAIController.cpp
+    [2/5] ParaPongAIController.gen.cpp
+    [3/5] UE4Editor-ParaPong-0033.lib
+       Criando biblioteca C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0033.lib e objeto C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0033.exp
+    [4/5] UE4Editor-ParaPong-0033.dll
+       Criando biblioteca C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0033.suppressed.lib e objeto C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\UE4Editor-ParaPong-0033.suppressed.exp
+    [5/5] ParaPongEditor.target
+  Total time in Parallel executor: 6,34 seconds
+  Total execution time: 23,32 seconds

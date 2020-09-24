@@ -1,0 +1,4 @@
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Development\ParaPong\Definitions.ParaPong.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongPlayerController.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongPlayerController.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPong.h

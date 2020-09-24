@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ParaPong.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{06525F77-180C-4769-ABF5-217221EA4072}</UniqueIdentifier>
+      <UniqueIdentifier>{4FEDE508-5FB6-460D-AAE0-F0FBB8A1C544}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ParaPong.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6917B5C4-0980-495B-ACF2-AB3607A06D1F}</UniqueIdentifier>
+      <UniqueIdentifier>{B55B7BA0-5B0B-4152-A179-AA089BBD1C17}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ParaPong">
-      <UniqueIdentifier>{E276AA0F-E6FB-4408-B9FE-CDAA7F4D9D68}</UniqueIdentifier>
+      <UniqueIdentifier>{06452246-6AA2-439A-BF65-8989CF475A60}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ParaPong\Ball.cpp">
       <Filter>Source\ParaPong</Filter>
@@ -44,6 +44,12 @@
     <ClInclude Include="..\..\Source\ParaPong\ParaPong.h">
       <Filter>Source\ParaPong</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ParaPong\ParaPongAIController.cpp">
+      <Filter>Source\ParaPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ParaPong\ParaPongAIController.h">
+      <Filter>Source\ParaPong</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ParaPong\ParaPongCharacter.cpp">
       <Filter>Source\ParaPong</Filter>
     </ClCompile>
@@ -54,6 +60,12 @@
       <Filter>Source\ParaPong</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ParaPong\ParaPongGameModeBase.h">
+      <Filter>Source\ParaPong</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ParaPong\ParaPongPlayerController.cpp">
+      <Filter>Source\ParaPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ParaPong\ParaPongPlayerController.h">
       <Filter>Source\ParaPong</Filter>
     </ClInclude>
   </ItemGroup>
