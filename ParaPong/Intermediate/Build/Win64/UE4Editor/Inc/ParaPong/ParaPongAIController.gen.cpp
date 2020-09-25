@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeParaPongAIController() {}
 	PARAPONG_API UClass* Z_Construct_UClass_AParaPongAIController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_ParaPong();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void AParaPongAIController::StaticRegisterNativesAParaPongAIController()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeParaPongAIController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BallRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BallRef;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +52,15 @@ void EmptyLinkFunctionForGeneratedCodeParaPongAIController() {}
 		{ "ModuleRelativePath", "ParaPongAIController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParaPongAIController_Statics::NewProp_BallRef_MetaData[] = {
+		{ "ModuleRelativePath", "ParaPongAIController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParaPongAIController_Statics::NewProp_BallRef = { "BallRef", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParaPongAIController, BallRef), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParaPongAIController_Statics::NewProp_BallRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParaPongAIController_Statics::NewProp_BallRef_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParaPongAIController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParaPongAIController_Statics::NewProp_BallRef,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AParaPongAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AParaPongAIController>::IsAbstract,
 	};
@@ -55,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeParaPongAIController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AParaPongAIController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AParaPongAIController_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AParaPongAIController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParaPongAIController_Statics::Class_MetaDataParams))
@@ -73,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeParaPongAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParaPongAIController, 3527113601);
+	IMPLEMENT_CLASS(AParaPongAIController, 3369710468);
 	template<> PARAPONG_API UClass* StaticClass<AParaPongAIController>()
 	{
 		return AParaPongAIController::StaticClass();
