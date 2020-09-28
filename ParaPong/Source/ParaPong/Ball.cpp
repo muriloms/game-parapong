@@ -43,7 +43,6 @@ void ABall::BeginPlay()
 	// Definir massa do objeto
 	BallMesh->SetMassOverrideInKg(NAME_None, 1.0f, true);
 
-	StartMovement();
 
 }
 

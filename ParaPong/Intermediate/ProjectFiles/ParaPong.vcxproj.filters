@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ParaPong.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4FEDE508-5FB6-460D-AAE0-F0FBB8A1C544}</UniqueIdentifier>
+      <UniqueIdentifier>{85F5BBCF-44BB-4101-AB05-F27D1881DE84}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ParaPong.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B55B7BA0-5B0B-4152-A179-AA089BBD1C17}</UniqueIdentifier>
+      <UniqueIdentifier>{56956B43-8100-443A-984C-0442E652FC89}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ParaPong">
-      <UniqueIdentifier>{06452246-6AA2-439A-BF65-8989CF475A60}</UniqueIdentifier>
+      <UniqueIdentifier>{956E1965-7669-4D26-A359-791EB2C6B551}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ParaPong\Ball.cpp">
       <Filter>Source\ParaPong</Filter>
@@ -60,6 +60,12 @@
       <Filter>Source\ParaPong</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ParaPong\ParaPongGameModeBase.h">
+      <Filter>Source\ParaPong</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ParaPong\ParaPongGameState.cpp">
+      <Filter>Source\ParaPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ParaPong\ParaPongGameState.h">
       <Filter>Source\ParaPong</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ParaPong\ParaPongPlayerController.cpp">
