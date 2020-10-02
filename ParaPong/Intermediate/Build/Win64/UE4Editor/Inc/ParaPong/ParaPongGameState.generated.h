@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AParaPongCharacter;
+class ABall;
+class ACameraActor;
 #ifdef PARAPONG_ParaPongGameState_generated_h
 #error "ParaPongGameState.generated.h already included, missing '#pragma once' in ParaPongGameState.h"
 #endif
@@ -16,12 +19,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ParaPong_Source_ParaPong_ParaPongGameState_h_15_SPARSE_DATA
 #define ParaPong_Source_ParaPong_ParaPongGameState_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnStartMatchCountdown);
+	DECLARE_FUNCTION(execOnStartMatchCountdown); \
+	DECLARE_FUNCTION(execSetupGame);
 
 
 #define ParaPong_Source_ParaPong_ParaPongGameState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnStartMatchCountdown);
+	DECLARE_FUNCTION(execOnStartMatchCountdown); \
+	DECLARE_FUNCTION(execSetupGame);
 
 
 #define ParaPong_Source_ParaPong_ParaPongGameState_h_15_INCLASS_NO_PURE_DECLS \

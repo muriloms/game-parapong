@@ -8,6 +8,7 @@
 #include "ParaPong.h"
 
 #include <Kismet/GameplayStatics.h>
+#include <Camera/CameraActor.h>
 
 AParaPongGameState::AParaPongGameState()
 {
@@ -22,34 +23,44 @@ void AParaPongGameState::BeginPlay()
 {
 	Super::BeginPlay();
 
+	/*
 	AActor* BallActor = UGameplayStatics::GetActorOfClass(GetWorld(), ABall::StaticClass());
 
 	if (BallActor)
 	{
 		BallRef = Cast<ABall>(BallActor);
 	}
+	*/
+
+	// Configurar a camera do jogo
+	if (APlayerController* PlayerController = GetWorld()->GetFirstPlayerController())
+	{
+		PlayerController->SetViewTarget(MainCamera);
+	}
+	
 	// Inicia o timer de inicio da partida
 	const float TimerRate = 1.0f; // frequencia com que o timer vai ser chamado
 	const bool bLoop = true; // se o timer deve ser recorrente
 	const float TimerDelay = 2.0f; // delay para o inicio do timer
 	GetWorldTimerManager().SetTimer(StartMatchTimer, this, &AParaPongGameState::OnStartMatchCountdown, TimerRate, bLoop, TimerDelay);
+	
 }
 
 void AParaPongGameState::IncrementScore(AParaPongCharacter* Player)
 {
-	if (Player == Player1)
+	if (Player == Player1Ref)
 	{
 		Player1Score++;
 
 		// verificar se player 1 ganhou
-		CheckVictory(Player1, Player1Score);
+		CheckVictory(Player1Ref, Player1Score);
 	}
-	else if (Player == Player2)
+	else if (Player == Player2Ref)
 	{
 		Player2Score++;
 
 		// verificar se player 2 ganhou
-		CheckVictory(Player2, Player2Score);
+		CheckVictory(Player2Ref, Player2Score);
 	}
 }
 
@@ -82,4 +93,15 @@ void AParaPongGameState::OnStartMatchCountdown()
 			BallRef->StartMovement();
 		}
 	}
+}
+
+void AParaPongGameState::SetupGame(AParaPongCharacter* Player1,
+	AParaPongCharacter* Player2,
+	ABall* Ball,
+	ACameraActor* Camera)
+{
+	Player1Ref = Player1;
+	Player2Ref = Player2;
+	BallRef = Ball;
+	MainCamera = Camera;
 }

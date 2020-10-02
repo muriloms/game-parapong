@@ -36,7 +36,7 @@ public: \
 
 #define ParaPong_Source_ParaPong_ParaPongGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AParaPongGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AParaPongGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AParaPongGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AParaPongGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParaPongGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define ParaPong_Source_ParaPong_ParaPongGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AParaPongGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AParaPongGameModeBase(AParaPongGameModeBase&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AParaPongGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParaPongGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AParaPongGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AParaPongGameModeBase)
 
 
 #define ParaPong_Source_ParaPong_ParaPongGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET

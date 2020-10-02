@@ -36,9 +36,18 @@ public:
 	UPROPERTY(EditAnywhere)
 	class ABall* BallRef;
 	UPROPERTY(EditAnywhere)
-	class AParaPongCharacter* Player1;
+	class AParaPongCharacter* Player1Ref;
 	UPROPERTY(EditAnywhere)
-	class AParaPongCharacter* Player2;
+	class AParaPongCharacter* Player2Ref;
+
+	UPROPERTY(EditAnywhere)
+	class ACameraActor* MainCamera;
+
+	UFUNCTION(BlueprintCallable)
+	void SetupGame(class AParaPongCharacter* Player1,
+		class AParaPongCharacter* Player2,
+		class ABall* Ball,
+		class ACameraActor* Camera);
 
 private:
 	bool bIsGameOver;

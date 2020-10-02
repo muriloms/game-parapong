@@ -13,5 +13,9 @@ UCLASS()
 class PARAPONG_API AParaPongGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+
+	AParaPongGameModeBase();
 	
 };

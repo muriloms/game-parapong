@@ -5,3 +5,15 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongGameModeBase.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongPlayerController.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongPlayerController.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongCharacter.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Source\ParaPong\ParaPongGameState.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
+C:\Users\ms7mu\Desktop\documentos\git\muriloms\game-parapong\ParaPong\Intermediate\Build\Win64\UE4Editor\Inc\ParaPong\ParaPongGameState.generated.h
