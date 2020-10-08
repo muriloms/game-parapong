@@ -14,8 +14,8 @@ AParaPongGameState::AParaPongGameState()
 {
 	Player1Score = 0;
 	Player2Score = 0;
-	ScoreToWin = 2;
-	StartMatchCountdown = 5;
+	ScoreToWin = 5;
+	StartMatchCountdown = 1;
 	bIsGameOver = false;
 }
 
@@ -68,13 +68,25 @@ void AParaPongGameState::CheckVictory(class AParaPongCharacter* Player, int32 Sc
 {
 	if (Score == ScoreToWin)
 	{
-		bIsGameOver = false;
+		bIsGameOver = true;
 
 		if (BallRef)
 		{
 			BallRef->StopMovement();
 			BallRef->ResetMovement();
 		}
+	}
+	else
+	{
+		BallRef->StopMovement();
+		BallRef->ResetMovement();
+
+		// Espera 1 segundo para iniciar o movimento da bola
+		const float TimerRate = 1.0f;
+		const bool bLoop = false;
+		GetWorldTimerManager().SetTimer(StartMovementTimer, BallRef, &ABall::StartMovement, TimerRate, bLoop);
+		BallRef->StartMovement();
+
 	}
 }
 
@@ -86,6 +98,8 @@ void AParaPongGameState::OnStartMatchCountdown()
 
 	if (StartMatchCountdown == 0)
 	{
+		bIsGameOver = false;
+		// Finaliza o Timer de inicia da partida
 		GetWorldTimerManager().ClearTimer(StartMatchTimer);
 
 		if (BallRef)

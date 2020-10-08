@@ -52,7 +52,11 @@ public:
 private:
 	bool bIsGameOver;
 
+	// TimerHandle para o contator de início da partida
 	FTimerHandle StartMatchTimer;
+
+	// TimerHadle para reiniciar o movimento da bola
+	FTimerHandle StartMovementTimer;
 
 	int32 StartMatchCountdown;
 
